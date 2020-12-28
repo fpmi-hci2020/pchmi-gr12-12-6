@@ -1,0 +1,639 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+.bilety {
+  align-items: center;
+  background-color: var(--linen);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  justify-content: flex-start;
+  width: auto;
+}
+
+.bilety .table {
+  width: 100%;
+}
+
+.bilety .auto-flex-uxzUmT {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 67px;
+  justify-content: flex-start;
+  margin-left: 2px;
+  margin-top: 25px;
+  min-width: 948px;
+  width: auto;
+}
+.bilety .auto-flex1-C61RwL {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 957px;
+  width: 1440px;
+}
+.bilety .auto-flex2-C61RwL {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 67px;
+  justify-content: flex-start;
+  margin-right: 23px;
+  margin-top: 0px;
+  min-width: 1117px;
+  width: auto;
+}
+.bilety .bilety-431 {
+  align-self: flex-start;
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 247px;
+  margin-top: 18px;
+  min-height: 67px;
+  text-align: left;
+  width: 369px;
+}
+.bilety .data-465 {
+  background-color: transparent;
+  height: 67px;
+  left: 387px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 175px;
+}
+.bilety .dokumenty-3939 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 19px;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.bilety .fon-NOBY2w {
+  background-color: var(--gray-nurse);
+  height: 676px;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  width: 946px;
+}
+.bilety .fon-W4xGpm {
+  background-color: var(--mercury);
+  border-radius: 5px;
+  height: 67px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 753px;
+}
+.bilety .iazyk-3938 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 210px;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.bilety .image-1 {
+  background-color: transparent;
+  height: 50px;
+  left: 1225px;
+  position: absolute;
+  top: 8px;
+  width: 50px;
+}
+.bilety .informatsiia-3937 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.bilety .kalendar-7Fk9SQ {
+  background-color: transparent;
+  height: 40px;
+  left: 123px;
+  position: absolute;
+  top: 11px;
+  width: 40px;
+}
+.bilety .kalendar-W4xGpm {
+  background-color: transparent;
+  height: 40px;
+  left: 316px;
+  position: absolute;
+  top: 11px;
+  width: 40px;
+}
+.bilety .knopka {
+  background-color: var(--astronaut);
+  border-radius: 5px;
+  height: 67px;
+  left: 0px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 174px;
+}
+.bilety .knopka:hover {
+  transform: scale(1.1);
+}
+.bilety .kuda-4310 {
+  background-color: transparent;
+  border: 0;
+  height: 28px;
+  left: 580px;
+  letter-spacing: 0px;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 20px;
+  width: 120px;
+}
+.bilety .kuda-4310::placeholder {
+  color: rgba(44, 44, 44, 0.3);
+}
+.bilety .kuda-464 {
+  background-color: transparent;
+  height: 67px;
+  left: 194px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 175px;
+}
+.bilety .lichnyi-kabinet-3940 {
+  background-color: transparent;
+  height: 67px;
+  left: 1020px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 175px;
+}
+.bilety .line-4 {
+  background-color: transparent;
+  height: 67px;
+  left: 172px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.bilety .line-5 {
+  background-color: transparent;
+  height: 67px;
+  left: 366px;
+  position: absolute;
+  top: -3px;
+  width: 1px;
+}
+.bilety .line-6 {
+  background-color: transparent;
+  height: 67px;
+  left: 560px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+.bilety .line-7 {
+  background-color: transparent;
+  height: 1px;
+  left: 1px;
+  position: absolute;
+  top: 66px;
+  width: 946px;
+}
+.bilety .minsk-4610 {
+  background-color: transparent;
+  height: 67px;
+  left: 1px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 88px;
+  width: 175px;
+}
+.bilety .minsk-481 {
+  background-color: transparent;
+  height: 67px;
+  left: 194px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 174px;
+  width: 175px;
+}
+.bilety .moskva-4611 {
+  background-color: transparent;
+  height: 67px;
+  left: 194px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 87px;
+  width: 175px;
+}
+.bilety .moskva-480 {
+  background-color: transparent;
+  height: 67px;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 174px;
+  width: 175px;
+}
+.bilety .naiti-bilety-4316 {
+  background-color: transparent;
+  height: 67px;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 175px;
+}
+.bilety .niz {
+  background-color: var(--heavy-metal-2);
+  flex-shrink: 0;
+  height: 20px;
+  margin-top: 0px;
+  width: 1440px;
+}
+.bilety .novosti-3942 {
+  background-color: transparent;
+  height: 67px;
+  left: 343px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 175px;
+}
+.bilety .otkuda-439 {
+  background-color: transparent;
+  border: 0;
+  height: 28px;
+  left: 386px;
+  letter-spacing: 0px;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 20px;
+  width: 120px;
+}
+.bilety .otkuda-439::placeholder {
+  color: rgba(44, 44, 44, 0.3);
+}
+.bilety .otkuda-461 {
+  background-color: transparent;
+  height: 67px;
+  left: 1px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 175px;
+}
+.bilety .overlap-group-uxzUmT {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 676px;
+  margin-left: 2px;
+  margin-top: 17px;
+  position: relative;
+  width: 950px;
+}
+.bilety .overlap-group1-uxzUmT {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  position: relative;
+  width: 1440px;
+}
+.bilety .overlap-group2-c24oYb {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  margin-left: 18px;
+  position: relative;
+  width: 175px;
+}
+.bilety .partnioram-3945 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 19px;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.bilety .perevozchik-466 {
+  background-color: transparent;
+  height: 67px;
+  left: 581px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 175px;
+}
+.bilety .po-kakoe-438 {
+  background-color: transparent;
+  border: 0;
+  height: 28px;
+  left: 193px;
+  letter-spacing: 0px;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 20px;
+  width: 120px;
+}
+.bilety .po-kakoe-438::placeholder {
+  color: rgba(44, 44, 44, 0.3);
+}
+.bilety .podderzhka-3941 {
+  background-color: transparent;
+  height: 67px;
+  left: 827px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 175px;
+}
+.bilety .poisk {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  position: relative;
+  width: 755px;
+}
+.bilety .ticket {
+  background-color: transparent;
+  letter-spacing: 0px;
+  line-height: normal;
+  text-align: center;
+}
+.bilety .remus-4613 {
+  background-color: transparent;
+  height: 67px;
+  left: 580px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 88px;
+  width: 175px;
+}
+.bilety .remus-483 {
+  background-color: transparent;
+  height: 67px;
+  left: 580px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 174px;
+  width: 175px;
+}
+.bilety .s-kakogo-437 {
+  background-color: transparent;
+  border: 0;
+  height: 28px;
+  left: 20px;
+  letter-spacing: 0px;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 20px;
+  width: 100px;
+}
+.bilety .s-kakogo-437::placeholder {
+  color: rgba(44, 44, 44, 0.3);
+}
+.bilety .shapka-NOBY2w {
+  background-color: var(--bon-jour);
+  height: 67px;
+  left: 1px;
+  top: 0px;
+  width: 946px;
+}
+.bilety .shapka-kwy4Oh {
+  background-color: var(--bon-jour);
+  height: 67px;
+  left: 0px;
+  position: absolute;
+  top: 174px;
+  width: 946px;
+}
+.bilety .shapka-tQIsjm {
+  background-color: var(--bon-jour);
+  height: 67px;
+  left: 0px;
+  position: absolute;
+  top: 87px;
+  width: 946px;
+}
+.bilety .stoimost-467 {
+  background-color: transparent;
+  height: 67px;
+  left: 773px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 175px;
+}
+.bilety .tickets-3944 {
+  background-color: transparent;
+  height: 64px;
+  left: 150px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 175px;
+}
+.bilety .twitter {
+  align-items: flex-end;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 24px;
+  justify-content: flex-start;
+  margin-left: 139px;
+  margin-top: 1px;
+  overflow: hidden;
+  width: 30px;
+}
+.bilety .vector {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 24px;
+  margin-bottom: -0px;
+  margin-left: 0px;
+  width: 30px;
+}
+.bilety .verkh {
+  background-color: var(--astronaut);
+  height: 67px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+.bilety .x10052019-4612 {
+  background-color: transparent;
+  height: 67px;
+  left: 388px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 87px;
+  width: 175px;
+}
+.bilety .x13-1 {
+  background-color: transparent;
+  height: 40px;
+  left: 509px;
+  position: absolute;
+  top: 14px;
+  width: 43px;
+}
+.bilety .x1672r-484 {
+  background-color: transparent;
+  height: 67px;
+  left: 773px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 174px;
+  width: 175px;
+}
+.bilety .x17052019-482 {
+  background-color: transparent;
+  height: 67px;
+  left: 387px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 174px;
+  width: 175px;
+}
+.bilety .x1723r-4614 {
+  background-color: transparent;
+  height: 67px;
+  left: 775px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 87px;
+  width: 175px;
+}
+.changa-regular-normal-linen-48px {
+  color: var(--linen);
+  font-family: "Changa-Regular", Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-astronaut-215px {
+  color: var(--astronaut);
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-astronaut-28px {
+  color: var(--astronaut);
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-heavy-metal-215px {
+  color: var(--heavy-metal);
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-linen-215px {
+  color: var(--linen);
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --astronaut: rgba(47, 63, 115, 1);
+  --bon-jour: rgba(225, 225, 225, 1);
+  --gray-nurse: rgba(234, 234, 234, 1);
+  --heavy-metal: rgba(44, 44, 44, 0.5);
+  --heavy-metal-2: rgba(44, 44, 44, 0.15);
+  --linen: rgba(250, 238, 227, 1);
+  --mercury: rgba(229, 229, 229, 1);
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

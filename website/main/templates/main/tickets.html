@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main/css/tickets.css' %}" type="text/css"/>
+</head>
+<body>
+
+<div class="bilety">
+  <div class="auto-flex1-C61RwL">
+    <div class="overlap-group1-uxzUmT">
+      <div class="verkh"></div>
+      <div class="lichnyi-kabinet-3940 valign-text-middle roboto-regular-normal-linen-215px border-class-1">
+        Личный Кабинет
+      </div>
+      <div class="podderzhka-3941 valign-text-middle roboto-regular-normal-linen-215px border-class-1">Поддержка</div>
+      <div class="novosti-3942 valign-text-middle roboto-regular-normal-linen-215px border-class-1">Новости</div>
+      <img
+        class="image-1"
+        src="https://anima-uploads.s3.amazonaws.com/projects/5fe8a4e6fb1adbc90252ca9a/releases/5fe8a9f1a70b51f10c37d082/img/image-1-1@2x.jpg"
+      />
+      <h1 class="tickets-3944 valign-text-middle changa-regular-normal-linen-48px border-class-1">TICKETS</h1>
+    </div>
+    <div class="bilety-431 valign-text-middle roboto-regular-normal-astronaut-28px border-class-1">Билеты</div>
+    <div class="auto-flex-uxzUmT">
+      <div class="poisk">
+        <div class="fon-W4xGpm"></div>
+        <img
+          class="line-5"
+          src="https://anima-uploads.s3.amazonaws.com/projects/5fe8a4e6fb1adbc90252ca9a/releases/5fe8aa6568286684fd0edfcb/img/line-2@2x.png"
+        />
+        <img
+          class="line-4"
+          src="https://anima-uploads.s3.amazonaws.com/projects/5fe8a4e6fb1adbc90252ca9a/releases/5fe8aa6568286684fd0edfcb/img/line-2@2x.png"
+        />
+        <img
+          class="line-6"
+          src="https://anima-uploads.s3.amazonaws.com/projects/5fe8a4e6fb1adbc90252ca9a/releases/5fe8aa6568286684fd0edfcb/img/line-2@2x.png"
+        />
+        <input
+          class="s-kakogo-437 roboto-regular-normal-heavy-metal-215px border-class-1"
+          name="с-какого4"
+          placeholder="С какого"
+          type="text"
+          required
+        />
+        <input
+          class="po-kakoe-438 roboto-regular-normal-heavy-metal-215px border-class-1"
+          name="по-какое5"
+          placeholder="По какое"
+          type="text"
+          required
+        />
+        <input
+          class="kuda-4310 roboto-regular-normal-heavy-metal-215px border-class-1"
+          name="куда6"
+          placeholder="Куда"
+          type="text"
+          required
+        />
+        <input
+          class="otkuda-439 roboto-regular-normal-heavy-metal-215px border-class-1"
+          name="откуда7"
+          placeholder="Откуда"
+          type="text"
+          required
+        />
+        <img
+          class="kalendar-W4xGpm"
+          src="https://anima-uploads.s3.amazonaws.com/projects/5fe8a4e6fb1adbc90252ca9a/releases/5fe8a67aa70b51f10c37d07e/img/---------@2x.png"
+        />
+        <img
+          class="kalendar-7Fk9SQ"
+          src="https://anima-uploads.s3.amazonaws.com/projects/5fe8a4e6fb1adbc90252ca9a/releases/5fe8a67aa70b51f10c37d07e/img/---------@2x.png"
+        />
+        <img
+          class="x13-1"
+          src="https://anima-uploads.s3.amazonaws.com/projects/5fe8a4e6fb1adbc90252ca9a/releases/5fe91383b1a39b7c338a93d1/img/13-1@2x.jpg"
+        />
+      </div>
+      <div class="overlap-group2-c24oYb">
+        <button type="submit" class="knopka smart-layers-pointers" href="/"></button>
+        <div class="naiti-bilety-4316 valign-text-middle roboto-regular-normal-linen-215px border-class-1">
+          Найти билеты
+        </div>
+      </div>
+    </div>
+    <div class="overlap-group-uxzUmT">
+      <table class="table">
+        <thead>
+          <tr class="shapka-NOBY2w">
+            <th class="1 ticket roboto-regular-normal-heavy-metal-215px border-class-1">Откуда</th>
+            <th class="2 ticket roboto-regular-normal-heavy-metal-215px border-class-1">Куда</th>
+            <th class="3 ticket roboto-regular-normal-heavy-metal-215px border-class-1">Дата</th>
+            <th class="4 ticket roboto-regular-normal-heavy-metal-215px border-class-1">Перевозчик</th>
+            <th class="5 ticket roboto-regular-normal-heavy-metal-215px border-class-1">Стоимость</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for el in tickets%}
+          <tr class="shapka-NOBY2w">
+            <th class="ticket roboto-regular-normal-heavy-metal-215px border-class-1">{{el.From}}</th>
+            <th class="ticket roboto-regular-normal-heavy-metal-215px border-class-1">{{el.Where}}</th>
+            <th class="ticket roboto-regular-normal-heavy-metal-215px border-class-1">{{el.Date}}</th>
+            <th class="ticket roboto-regular-normal-heavy-metal-215px border-class-1">{{el.Carrier}}</th>
+            <th class="ticket roboto-regular-normal-heavy-metal-215px border-class-1">{{el.Price}}</th>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+
+    </div>
+    <div class="niz"></div>
+  </div>
+  <div class="auto-flex2-C61RwL">
+    <div class="informatsiia-3937 valign-text-middle roboto-regular-normal-astronaut-215px border-class-1">
+      Информация
+    </div>
+    <div class="partnioram-3945 valign-text-middle roboto-regular-normal-astronaut-215px border-class-1">Партнёрам</div>
+    <div class="dokumenty-3939 valign-text-middle roboto-regular-normal-astronaut-215px border-class-1">Документы</div>
+    <div class="iazyk-3938 valign-text-middle roboto-regular-normal-astronaut-215px border-class-1">Язык</div>
+    <div class="twitter">
+      <img
+        class="vector"
+        src="https://anima-uploads.s3.amazonaws.com/projects/5fe8a4e6fb1adbc90252ca9a/releases/5fe8aa6568286684fd0edfcb/img/vector@2x.png"
+      />
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

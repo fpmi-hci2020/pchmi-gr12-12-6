@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}" type="text/css"/>
+</head>
+<body>
+
+<div class="glavnaia">
+  <div class="auto-flex1-C61RwL">
+    <div class="verkh">
+      <h1 class="tickets-78 valign-text-middle changa-regular-normal-linen-48px border-class-1" href="/">TICKETS</h1>
+      <div class="novosti-2716 valign-text-middle roboto-regular-normal-linen-215px border-class-1" href="/news">Новости</div>
+      <div class="podderzhka-716 valign-text-middle roboto-regular-normal-linen-215px border-class-1">Поддержка</div>
+      <div class="lichnyi-kabinet-77 valign-text-middle roboto-regular-normal-linen-215px border-class-1">
+        Личный Кабинет
+      </div>
+      <img
+        class="ikonka"
+        src="https://anima-uploads.s3.amazonaws.com/projects/5fe8a4e6fb1adbc90252ca9a/releases/5fe8a67aa70b51f10c37d07e/img/image-1@2x.jpg"
+      />
+    </div>
+
+
+      {% block content %}{% endblock %}
+
+
+<div class="niz"></div>
+  <div class="auto-flex3-C61RwL">
+    <div class="informatsiia-714 valign-text-middle roboto-regular-normal-astronaut-215px border-class-1">
+      Информация
+    </div>
+    <div class="partnioram-712 valign-text-middle roboto-regular-normal-astronaut-215px border-class-1">Партнёрам</div>
+    <div class="dokumenty-715 valign-text-middle roboto-regular-normal-astronaut-215px border-class-1">Документы</div>
+    <div class="iazyk-2711 valign-text-middle roboto-regular-normal-astronaut-215px border-class-1">Язык</div>
+    <div class="twitter">
+      <img
+        class="vector"
+        src="https://anima-uploads.s3.amazonaws.com/projects/5fe8a4e6fb1adbc90252ca9a/releases/5fe8d2cb9924fde667e4285d/img/vector@2x.png"
+      />
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

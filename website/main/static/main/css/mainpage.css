@@ -1,0 +1,477 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+.changa-regular-normal-linen-48px {
+  color: var(--linen);
+  font-family: "Changa-Regular", Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+.glavnaia {
+  align-items: center;
+  background-color: var(--linen);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  justify-content: flex-start;
+  width: auto;
+}
+.glavnaia .a-272 {
+  background-color: transparent;
+  border: 0;
+  height: 24px;
+  left: 553px;
+  letter-spacing: 0px;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 215px;
+  width: 175px;
+}
+.glavnaia .a-272::placeholder {
+  color: rgba(47, 63, 115, 0.6);
+}
+.glavnaia .a-272::placeholder {
+  color: rgba(47, 63, 115, 0.6);
+}
+.glavnaia .a-272::placeholder {
+  color: rgba(47, 63, 115, 0.6);
+}
+.glavnaia .arrow-1 {
+  background-color: transparent;
+  height: 19px;
+  left: 481px;
+  position: absolute;
+  top: 210px;
+  width: 32px;
+}
+.glavnaia .arrow-2 {
+  background-color: transparent;
+  height: 19px;
+  left: 481px;
+  position: absolute;
+  top: 226px;
+  width: 32px;
+}
+.glavnaia .auto-flex-uxzUmT {
+  align-items: flex-start;
+  align-self: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 67px;
+  justify-content: flex-start;
+  margin-left: 1px;
+  margin-top: 19px;
+  min-width: 1141px;
+  width: 1440px;
+}
+.glavnaia .auto-flex1-C61RwL {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 589px;
+  width: 1440px;
+}
+.glavnaia .auto-flex2-C61RwL {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 328px;
+  justify-content: flex-start;
+  margin-left: 1px;
+  margin-top: 20px;
+  min-width: 1141px;
+  width: 1440px;
+}
+.glavnaia .auto-flex3-C61RwL {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 67px;
+  justify-content: flex-start;
+  margin-right: 23.86px;
+  margin-top: 0px;
+  min-width: 1116px;
+  width: 1440px;
+}
+.glavnaia .bilet-na-a-rnut-2740 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 18px;
+  min-height: 67px;
+  text-align: left;
+  width: 368px;
+}
+.glavnaia .bilety-na---visa-2739 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 18px;
+  min-height: 328px;
+  text-align: left;
+  width: 368px;
+}
+.glavnaia .bilety-na--tobus-2710 {
+  background-color: transparent;
+  height: 154px;
+  left: 440px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 562px;
+}
+.glavnaia .chelovek {
+  background-color: transparent;
+  height: 40px;
+  left: 948px;
+  position: absolute;
+  top: 207px;
+  width: 40px;
+}
+.glavnaia .dokumenty-715 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 19px;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.glavnaia .esli-u-vas-rzhki-2742 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 18px;
+  min-height: 328px;
+  text-align: left;
+  width: 368px;
+}
+.glavnaia .esli-vam-n-letov-2736 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 328px;
+  text-align: left;
+  width: 369px;
+}
+.glavnaia .fon {
+  background-color: transparent;
+  height: 348px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+.glavnaia .iazyk-2711 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 210px;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.glavnaia .ikonka {
+  align-self: center;
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 50px;
+  margin-bottom: 1px;
+  margin-left: 30px;
+  width: 50px;
+}
+.glavnaia .informatsiia-714 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.glavnaia .kalendar {
+  background-color: transparent;
+  height: 40px;
+  left: 843px;
+  position: absolute;
+  top: 207px;
+  width: 40px;
+}
+.glavnaia .knopka {
+  background-color: var(--astronaut);
+  border-radius: 5px;
+  height: 67px;
+  left: 1019px;
+  pointer-events: auto;
+  position: absolute;
+  top: 194px;
+  transition: all 0.2s ease;
+  width: 174px;
+}
+.glavnaia .knopka:hover {
+  transform: scale(1.1.2);
+}
+.glavnaia .kupit-bil-rosto-2735 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 67px;
+  text-align: left;
+  width: 368px;
+}
+.glavnaia .lichnyi-kabinet-77 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 18px;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.glavnaia .line-2 {
+  background-color: transparent;
+  height: 67px;
+  left: 516px;
+  position: absolute;
+  top: 194px;
+  width: 1px;
+}
+.glavnaia .line-3 {
+  background-color: transparent;
+  height: 67px;
+  left: 730px;
+  position: absolute;
+  top: 194px;
+  width: 1px;
+}
+.glavnaia .line-4 {
+  background-color: transparent;
+  height: 67px;
+  left: 902px;
+  position: absolute;
+  top: 194px;
+  width: 1px;
+}
+.glavnaia .naiti-bilet-279 {
+  background-color: transparent;
+  height: 67px;
+  left: 1020px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 194px;
+  width: 175px;
+}
+.glavnaia .niz {
+  background-color: var(--heavy-metal);
+  flex-shrink: 0;
+  height: 20px;
+  margin-top: 0px;
+  width: 1440px;
+}
+.glavnaia .novosti-2716 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 18px;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.glavnaia .overlap-group-uxzUmT {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 348px;
+  margin-top: 0px;
+  position: relative;
+  width: 1440px;
+}
+.glavnaia .partnioram-712 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 19px;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.glavnaia .pochemu-na-raiut-2734 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 150px;
+  margin-top: 21px;
+  min-height: 67px;
+  text-align: left;
+  width: 369px;
+}
+.glavnaia .podderzhka-716 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 309px;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.glavnaia .poisk {
+  background-color: var(--mercury);
+  border-radius: 5px;
+  height: 67px;
+  left: 247px;
+  position: absolute;
+  top: 194px;
+  width: 753px;
+}
+.glavnaia .tickets-78 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 64px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 64px;
+  text-align: center;
+  width: 175px;
+}
+.glavnaia .twitter {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 24px;
+  justify-content: center;
+  margin-left: 139px;
+  margin-top: 1px;
+  overflow: hidden;
+  width: 29px;
+}
+.glavnaia .vector {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 24px;
+  width: 30px;
+}
+.glavnaia .verkh {
+  align-items: flex-start;
+  background-color: var(--astronaut);
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 67px;
+  justify-content: flex-start;
+  min-width: 1440px;
+  padding: 0 150px;
+  width: 1440px;
+}
+.glavnaia .x1-2726 {
+  background-color: transparent;
+  height: 25px;
+  left: 923px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 216px;
+  width: 1440px;
+}
+.glavnaia .zabronirov-latno-2738 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 19px;
+  min-height: 67px;
+  text-align: left;
+  width: 368px;
+}
+.roboto-regular-normal-astronaut-18px {
+  color: var(--astronaut);
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-astronaut-215px {
+  color: var(--astronaut);
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-astronaut-28px {
+  color: var(--astronaut);
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-linen-215px {
+  color: var(--linen);
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-linen-48px {
+  color: var(--linen);
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --astronaut: rgba(47, 63, 115, 1);
+  --heavy-metal: rgba(44, 44, 44, 0.15);
+  --linen: rgba(250, 238, 227, 1);
+  --mercury: rgba(229, 229, 229, 1);
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

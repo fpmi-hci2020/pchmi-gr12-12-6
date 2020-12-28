@@ -1,0 +1,341 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+.changa-regular-normal-linen-48px {
+  color: var(--linen);
+  font-family: "Changa-Regular", Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+.novosti {
+  align-items: center;
+  background-color: var(--linen);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  justify-content: flex-start;
+  width: auto;
+}
+.novosti .auto-flex-C61RwL {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 957px;
+  width: 1440px;
+}
+.novosti .auto-flex1-C61RwL {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 67px;
+  justify-content: flex-start;
+  margin-right: 23px;
+  margin-top: 0px;
+  min-width: 1117px;
+  width: auto;
+}
+.novosti .auto-flex2 {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-bottom: -522px;
+  min-height: 850px;
+  width: 368px;
+}
+.novosti .auto-flex3 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-bottom: -522px;
+  margin-left: 19px;
+  min-height: 763px;
+  width: 755px;
+}
+.novosti .fon {
+  background-color: var(--gray-nurse);
+  height: 763px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1140px;
+}
+.novosti .iazyk-8529 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 210px;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.novosti .image-1 {
+  background-color: transparent;
+  height: 50px;
+  left: 1225px;
+  position: absolute;
+  top: 8px;
+  width: 50px;
+}
+.novosti .informatsiia-8528 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.novosti .kartinka-855 {
+  background-color: transparent;
+  height: 241px;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 368px;
+}
+.novosti .lenta {
+  align-items: flex-end;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  height: 241px;
+  justify-content: flex-start;
+  left: 0px;
+  min-width: 1142px;
+  position: absolute;
+  top: 0px;
+  width: auto;
+}
+.novosti .lichnyi-kabinet-8531 {
+  background-color: transparent;
+  height: 67px;
+  left: 1020px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 175px;
+}
+.novosti .niz {
+  background-color: var(--heavy-metal);
+  flex-shrink: 0;
+  height: 20px;
+  margin-top: 0px;
+  width: 1440px;
+}
+.novosti .novost- {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 20px;
+  min-height: 241px;
+  text-align: left;
+  width: 755px;
+}
+.novosti .novost-1-8547 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: normal;
+  min-height: 241px;
+  text-align: left;
+  width: 755px;
+}
+.novosti .novosti-8540 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 1px;
+  min-height: 67px;
+  text-align: left;
+  width: 175px;
+}
+.novosti .novostiimg-8533 {
+  background-color: transparent;
+  height: 67px;
+  left: 343px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 175px;
+}
+.novosti .overlap-group-fhuxN3 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 763px;
+  margin-left: 2px;
+  margin-top: 107px;
+  position: relative;
+  width: 1142px;
+}
+.novosti .overlap-group1-fhuxN3 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  position: relative;
+  width: 1440px;
+}
+.novosti .overlap-group2 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 241px;
+  margin-top: 20px;
+  position: relative;
+  width: 368px;
+}
+.novosti .overlap-group3 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 241px;
+  margin-top: 23px;
+  position: relative;
+  width: 368px;
+}
+.novosti .overlap-group4 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 241px;
+  margin-top: 17px;
+  position: relative;
+  width: 368px;
+}
+.novosti .podderzhka-8532 {
+  background-color: transparent;
+  height: 67px;
+  left: 827px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 175px;
+}
+.novosti .rectangle- {
+  background-color: var(--blueberry);
+  height: 241px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 367px;
+}
+.novosti .tickets-8535 {
+  background-color: transparent;
+  height: 64px;
+  left: 150px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 175px;
+}
+.novosti .twitter {
+  align-items: flex-end;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 24px;
+  justify-content: flex-start;
+  margin-left: 139px;
+  margin-top: 1px;
+  overflow: hidden;
+  width: 30px;
+}
+.novosti .vector {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 24px;
+  margin-bottom: -0px;
+  margin-left: 0px;
+  width: 30px;
+}
+.novosti .verkh {
+  background-color: var(--astronaut);
+  height: 67px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+.novosti .x-853 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 67px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-left: 19px;
+  min-height: 67px;
+  text-align: center;
+  width: 175px;
+}
+.roboto-regular-normal-astronaut-215px {
+  color: var(--astronaut);
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-astronaut-28px {
+  color: var(--astronaut);
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-black-48px {
+  color: black;
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-regular-normal-linen-215px {
+  color: var(--linen);
+  font-family: "Roboto-Regular", Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --astronaut: rgba(47, 63, 115, 1);
+  --blueberry: rgba(53, 127, 238, 1);
+  --gray-nurse: rgba(234, 234, 234, 1);
+  --heavy-metal: rgba(44, 44, 44, 0.15);
+  --linen: rgba(250, 238, 227, 1);
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
